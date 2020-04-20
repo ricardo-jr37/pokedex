@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-widh, initial-scale=1.0">
+	<title>Pokedex</title>
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<h1>POKEDEX</h1>
+		<form>
+			<div class="form-group">
+				<label for="pokemon">POKEMON</label>
+				<input type="text" class="form-control" id="name">
+				<small>Exemplo: Pikachu</small>
+			</div>
+			<div class="form-group">
+				<label for="pokemon">ID</label>
+				<input type="text" class="form-control" id="id">
+			</div>
+			<!--
+			<div class="form-group">
+				<label for="pokemon">Link para imagens</label>
+				<input type="text" class="form-control" id="sprites">
+			</div>
+			-->
+			<div class="text-center" id="sprites">
+  				<img src="" class="rounded" id="imagem_pokemon">
+			</div>
+		</form>
+	</div>
+
+<script src="src/js/main.js"></script>
+</body>
+</html>
